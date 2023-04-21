@@ -5,7 +5,7 @@ API_HOST = os.environ.get("API_HOST", "0.0.0.0")
 API_PORT = int(os.environ.get("API_PORT", 8000))
 API_WORKERS = int(os.environ.get("API_WORKERS", 3))
 
-LOG_PATH = "/Users/idasom/study/python/socket-event-polling/logs"
+LOG_PATH = "/Users/idasom/study/python/send-data-intervals/logs"
 
 # KAFKA
 KAFKA_BOOTSTRAP = os.environ.get("KAFKA_HOST", "localhost:9092")
